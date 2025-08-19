@@ -3,13 +3,13 @@
   "WorkspaceRootPath": "D:\\laboratorio de codigo\\Wheelzy\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{730CE5BE-64C3-4B24-9D2A-648F9E927088}|..\\CodeProcessor\\CodeProcessor.csproj|d:\\laboratorio de codigo\\codeprocessor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3B4152ED-72D0-4732-8F7E-64D8906F17C5}|..\\CodeProcessor.Tests\\CodeProcessor.Tests.csproj|d:\\laboratorio de codigo\\codeprocessor.tests\\codeprocessorunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{730CE5BE-64C3-4B24-9D2A-648F9E927088}|..\\CodeProcessor\\CodeProcessor.csproj|d:\\laboratorio de codigo\\codeprocessor\\codeprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{730CE5BE-64C3-4B24-9D2A-648F9E927088}|..\\CodeProcessor\\CodeProcessor.csproj|d:\\laboratorio de codigo\\codeprocessor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{730CE5BE-64C3-4B24-9D2A-648F9E927088}|..\\CodeProcessor\\CodeProcessor.csproj|d:\\laboratorio de codigo\\codeprocessor\\applytransformationstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -43,7 +43,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CodeProcessor.cs",
               "DocumentMoniker": "D:\\laboratorio de codigo\\CodeProcessor\\CodeProcessor.cs",
               "RelativeDocumentMoniker": "..\\CodeProcessor\\CodeProcessor.cs",
@@ -63,13 +63,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CodeProcessorUnitTest.cs",
               "DocumentMoniker": "D:\\laboratorio de codigo\\CodeProcessor.Tests\\CodeProcessorUnitTest.cs",
               "RelativeDocumentMoniker": "..\\CodeProcessor.Tests\\CodeProcessorUnitTest.cs",
               "ToolTip": "D:\\laboratorio de codigo\\CodeProcessor.Tests\\CodeProcessorUnitTest.cs",
               "RelativeToolTip": "..\\CodeProcessor.Tests\\CodeProcessorUnitTest.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAvwDUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T16:39:45.691Z",
               "EditorCaption": ""
@@ -110,15 +110,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\laboratorio de codigo\\CodeProcessor\\Program.cs",
               "RelativeDocumentMoniker": "..\\CodeProcessor\\Program.cs",
-              "ToolTip": "D:\\laboratorio de codigo\\CodeProcessor\\Program.cs",
-              "RelativeToolTip": "..\\CodeProcessor\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAiAAAAAAAAAA==",
+              "ToolTip": "D:\\laboratorio de codigo\\CodeProcessor\\Program.cs*",
+              "RelativeToolTip": "..\\CodeProcessor\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T16:11:57.46Z"
+              "WhenOpened": "2025-08-19T16:11:57.46Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
