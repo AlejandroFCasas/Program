@@ -1,0 +1,38 @@
+
+		public bool UpdateCustomersBalanceByInvoices(List<Invoice> invoices)
+            {
+    if (invoices == null || !invoices.Any())
+    {
+        return true;
+    }
+
+    try
+    {
+        using var transaction = dbContext.Database.BeginTransaction();
+        
+        var validInvoices = invoices.Where(i => i.CustomerId.HasValue).ToList();
+        var customerIds = validInvoices.Select(i => i.CustomerId.Value).Distinct();
+        
+        var customers = dbContext.Customers
+            .Where(c => customerIds.Contains(c.Id))
+            .ToDictionary(c => c.Id);
+
+        foreach (var invoice in validInvoices)
+        {
+            if (customers.TryGetValue(invoice.CustomerId.Value, out var customer))
+            {
+                customer.Balance -= invoice.Total;
+            }
+        }
+
+        dbContext.SaveChanges();
+        transaction.Commit();
+        return true;
+    }
+    catch (Exception ex)
+    {
+        // Loggear el error (ex)
+        return false;
+    }
+}
+
